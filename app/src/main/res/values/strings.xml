@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">She</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <string name="msg_token_fmt">AAAANJXORVk:APA91bHTuKMZX5BAj4SnVuLryV2iV_vHo8tXb_2hFNz2VPybOakljXxGM407iHSIN7dnh7hxwQuWBl7bkGPGM6qQ-H5u_QLPzp-dEPimt4gLnB9HdshDKyguDZt1o_USsVbyJjX-QPqm
+</string>
+</resources>

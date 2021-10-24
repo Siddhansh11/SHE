@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "225851622745",
+    "project_id": "women-safety-app-bee9d",
+    "storage_bucket": "women-safety-app-bee9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225851622745:android:34d69b1e79355e171db848",
+        "android_client_info": {
+          "package_name": "com.dan.she"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225851622745-0cskvqmi7rq7fkhsbhar6ggersam74h7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtM6hSzG3dE1sp2_PgH7EYgsnqAR3e46A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225851622745-0cskvqmi7rq7fkhsbhar6ggersam74h7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
