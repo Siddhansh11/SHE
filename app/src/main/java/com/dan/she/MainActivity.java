@@ -11,22 +11,15 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.installations.FirebaseInstallations;
 import com.google.firebase.installations.InstallationTokenResult;
 import com.google.firebase.messaging.FirebaseMessaging;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 //        Log.d("NumberMainActivity", V1);
 
         FirebaseMessaging.getInstance().subscribeToTopic("all");
+        updateToken();
     }
 
     @Override
@@ -91,6 +85,23 @@ public class MainActivity extends AppCompatActivity {
         FcmNotificationsSender notificationsSender = new FcmNotificationsSender("/topics/all", "SHE", "Help please...!!", getApplicationContext(), MainActivity.this);
 
         notificationsSender.SendNotifications();
+    }
+
+    private void updateToken(){
+        FirebaseInstallations.getInstance().getToken(false).addOnCompleteListener(new OnCompleteListener<InstallationTokenResult>() {
+            @Override
+            public void onComplete(@NonNull Task<InstallationTokenResult> task) {
+                if(!task.isSuccessful()){
+                    return;
+                }
+                // Get new Instance ID token
+                TokenHelper token = new TokenHelper(task.getResult().getToken());
+                Log.d("Update token : ", token.getToken());
+                Map<String, Object> t = new HashMap<>();
+                t.put("token", token.getToken());
+                FirebaseDatabase.getInstance().getReference("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).updateChildren(t);
+            }
+        });
     }
 
 
