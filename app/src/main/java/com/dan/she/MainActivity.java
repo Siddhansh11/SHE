@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void invokeSoS(){
-        FcmNotificationsSender notificationsSender = new FcmNotificationsSender("/topics/all", "SHE", "Help please...!!", getApplicationContext(), MainActivity.this);
+        FcmNotificationsSender notificationsSender = new FcmNotificationsSender("/topics/all", "SHE", "Help Please.. Contact me as soon as possible.", getApplicationContext(), MainActivity.this);
 
         notificationsSender.SendNotifications();
     }
