@@ -16,18 +16,23 @@ public class DeveloperByActivity extends AppCompatActivity {
     }
 
     public void Dan(View v){
-        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://danishsshaikh.github.io/"));
+        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/sakshigoyal-19"));
         startActivity(implicit);
     }
 
     public void Ary(View v){
-        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://aryanveturekar.github.io/"));
+        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/siddhansh-jatale-ba5264190"));
         startActivity(implicit);
 
     }
 
     public void Him(View v){
-        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://himanshusiingh.github.io/"));
+        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/shubhanshi-makwana-26128b18b"));
+        startActivity(implicit);
+
+    }
+    public void xyz(View v){
+        Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/tanishkatelang-017"));
         startActivity(implicit);
 
     }

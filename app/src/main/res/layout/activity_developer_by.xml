@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".DeveloperByActivity"
-    android:background="@drawable/background"
+    android:background="@drawable/bg"
     >
 
     <RelativeLayout
@@ -18,13 +18,12 @@
         <ImageView
             android:layout_width="800dp"
             android:layout_height="90dp"
-            android:src="@drawable/iconname">
-        </ImageView>
+            android:src="@drawable/icon"></ImageView>
     </RelativeLayout>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="173dp"
+        android:layout_height="95dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="30dp"
@@ -33,7 +32,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="102dp"
             android:background="@drawable/bg1"
             android:orientation="horizontal">
 
@@ -53,7 +52,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Danish Shafi Shaikh"
+                        android:text="Sakshi Goyal"
                         android:textColor="#FFFFFF"
                         android:textSize="25dp" />
 
@@ -61,6 +60,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Click to know more."
+                        android:textStyle="bold"
                         android:textSize="15dp" />
 
                 </LinearLayout>
@@ -68,21 +68,14 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="100dp"
-                        android:layout_alignParentRight="true"
-                        android:src="@drawable/danish" />
-                </RelativeLayout>
+                    android:layout_height="match_parent" />
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="173dp"
+        android:layout_height="104dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="30dp"
@@ -91,7 +84,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="104dp"
             android:background="@drawable/bg2"
             android:orientation="horizontal">
 
@@ -111,7 +104,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Aryan Pravin Veturekar"
+                        android:text="Siddhansh Jatale"
                         android:textColor="#FFFFFF"
                         android:textSize="25dp" />
 
@@ -119,6 +112,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Click to know more."
+                        android:textStyle="bold"
                         android:textSize="15dp" />
 
                 </LinearLayout>
@@ -126,21 +120,14 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="100dp"
-                        android:layout_alignParentRight="true"
-                        android:src="@drawable/aryan" />
-                </RelativeLayout>
+                    android:layout_height="match_parent" />
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="173dp"
+        android:layout_height="95dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="30dp"
@@ -149,7 +136,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="100dp"
             android:background="@drawable/bg3"
             android:orientation="horizontal">
 
@@ -169,7 +156,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Himanshu Bipin Singh"
+                        android:text="Shubhanshi Makwana"
                         android:textColor="#FFFFFF"
                         android:textSize="25dp" />
 
@@ -177,6 +164,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Click to know more."
+                        android:textStyle="bold"
                         android:textSize="15dp" />
 
                 </LinearLayout>
@@ -184,14 +172,59 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="100dp"
-                        android:layout_alignParentRight="true"
-                        android:src="@drawable/himanshu" />
-                </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:onClick="Ary"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:background="@drawable/bg2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tanishka Telang"
+                        android:textColor="#FFFFFF"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Click to know more."
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/background"
+    android:background="@drawable/bg"
     tools:context=".Registration">
 
     <RelativeLayout
@@ -31,7 +31,7 @@
             android:layout_marginBottom="3dp"
             android:gravity="center_horizontal"
             android:text="S.H.E. - Women Safety App"
-            android:textColor="#FFFFFF"
+            android:textColor="#000"
             android:textSize="29sp"
             android:textStyle="bold|italic" />
 
@@ -45,7 +45,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="3dp"
         android:layout_marginTop="45dp"
-        android:textColor="#FFFFFF"
+        android:textColor="#000"
         android:textStyle="bold"
         android:gravity="center_horizontal"
         android:text="Register Here"

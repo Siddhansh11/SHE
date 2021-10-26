@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -34,8 +34,8 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="3dp"
             android:gravity="center_horizontal"
-            android:text="  S.H.E. - Women Safety App"
-            android:textColor="#FFFFFF"
+            android:text="     S.H.E."
+            android:textColor="#000"
             android:textSize="29sp"
             android:textStyle="bold|italic" />
 
@@ -71,7 +71,7 @@
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/relative">
+                        android:src="@drawable/friendship">
                     </ImageView>
 
                     <TextView
@@ -143,7 +143,7 @@
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/triggers">
+                        android:src="@drawable/smartphone">
                     </ImageView>
 
                     <TextView
@@ -181,7 +181,7 @@
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/developedby">
+                        android:src="@drawable/coding">
                     </ImageView>
 
                     <TextView
@@ -217,7 +217,7 @@
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/swipe">
+                        android:src="@drawable/safety">
                     </ImageView>
 
                     <TextView

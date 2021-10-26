@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".AddRelative"
-    android:background="@drawable/background"
+    android:background="@drawable/bg"
     >
 
     <RelativeLayout
@@ -31,21 +31,28 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="3dp"
         android:gravity="center_horizontal"
-        android:text="  S.H.E. - Women Safety App"
-        android:textColor="#FFFFFF"
+        android:text="     S.H.E."
+        android:textColor="#000 "
         android:textSize="29sp"
         android:textStyle="bold|italic" />
+
     <LinearLayout
+        android:id="@+id/relativeLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/relativeLayout1"
-        tools:ignore="MissingConstraints"
-        android:orientation="vertical"
         android:gravity="center_horizontal"
+        android:orientation="vertical"
         android:paddingLeft="20dp"
+        android:paddingTop="90dp"
         android:paddingRight="20dp"
-        android:paddingTop="90dp">
+        tools:ignore="MissingConstraints">
 
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="393dp"
+            android:layout_height="123dp"
+            app:srcCompat="@drawable/icon" />
 
         <EditText
             android:id="@+id/editText"
